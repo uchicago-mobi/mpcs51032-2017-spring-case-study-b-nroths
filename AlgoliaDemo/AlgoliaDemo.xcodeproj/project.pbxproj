@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34415CB6B207BCF4D982492B /* Pods_AlgoliaDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32313055CB49FC2828D0ADBE /* Pods_AlgoliaDemo.framework */; };
+		DD2340B61ED2226300655FE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2340B51ED2226300655FE9 /* AppDelegate.swift */; };
+		DD2340BB1ED2226300655FE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2340B91ED2226300655FE9 /* Main.storyboard */; };
+		DD2340BD1ED2226300655FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2340BC1ED2226300655FE9 /* Assets.xcassets */; };
+		DD2340C01ED2226300655FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2340BE1ED2226300655FE9 /* LaunchScreen.storyboard */; };
+		DD2340C81ED244E200655FE9 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2340C71ED244E200655FE9 /* SearchTableViewController.swift */; };
+		DD2340CA1ED2452400655FE9 /* ResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2340C91ED2452400655FE9 /* ResultsCell.swift */; };
+		DD2340CC1ED2495900655FE9 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2340CB1ED2495900655FE9 /* Record.swift */; };
+		DD2340D01ED249E800655FE9 /* AlgoliaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2340CF1ED249E800655FE9 /* AlgoliaManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32313055CB49FC2828D0ADBE /* Pods_AlgoliaDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgoliaDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F448B2ECDA53EB9D0449A7 /* Pods-AlgoliaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoliaDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgoliaDemo/Pods-AlgoliaDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CA3F7F281646499712525AED /* Pods-AlgoliaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoliaDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgoliaDemo/Pods-AlgoliaDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DD2340B21ED2226300655FE9 /* AlgoliaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgoliaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2340B51ED2226300655FE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD2340BA1ED2226300655FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD2340BC1ED2226300655FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD2340BF1ED2226300655FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD2340C11ED2226300655FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2340C71ED244E200655FE9 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		DD2340C91ED2452400655FE9 /* ResultsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsCell.swift; sourceTree = "<group>"; };
+		DD2340CB1ED2495900655FE9 /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		DD2340CF1ED249E800655FE9 /* AlgoliaManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgoliaManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD2340AF1ED2226300655FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34415CB6B207BCF4D982492B /* Pods_AlgoliaDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37255BE68950629EEAD473B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32313055CB49FC2828D0ADBE /* Pods_AlgoliaDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A36BC3E350EF867A3B0C0970 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6F448B2ECDA53EB9D0449A7 /* Pods-AlgoliaDemo.debug.xcconfig */,
+				CA3F7F281646499712525AED /* Pods-AlgoliaDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD2340A91ED2226300655FE9 = {
+			isa = PBXGroup;
+			children = (
+				DD2340B41ED2226300655FE9 /* AlgoliaDemo */,
+				DD2340B31ED2226300655FE9 /* Products */,
+				A36BC3E350EF867A3B0C0970 /* Pods */,
+				37255BE68950629EEAD473B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD2340B31ED2226300655FE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD2340B21ED2226300655FE9 /* AlgoliaDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD2340B41ED2226300655FE9 /* AlgoliaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DD2340CB1ED2495900655FE9 /* Record.swift */,
+				DD2340B51ED2226300655FE9 /* AppDelegate.swift */,
+				DD2340B91ED2226300655FE9 /* Main.storyboard */,
+				DD2340C91ED2452400655FE9 /* ResultsCell.swift */,
+				DD2340BC1ED2226300655FE9 /* Assets.xcassets */,
+				DD2340BE1ED2226300655FE9 /* LaunchScreen.storyboard */,
+				DD2340C11ED2226300655FE9 /* Info.plist */,
+				DD2340C71ED244E200655FE9 /* SearchTableViewController.swift */,
+				DD2340CF1ED249E800655FE9 /* AlgoliaManager.swift */,
+			);
+			path = AlgoliaDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD2340B11ED2226300655FE9 /* AlgoliaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2340C41ED2226300655FE9 /* Build configuration list for PBXNativeTarget "AlgoliaDemo" */;
+			buildPhases = (
+				8850FE0AF5A995787C922430 /* [CP] Check Pods Manifest.lock */,
+				DD2340AE1ED2226300655FE9 /* Sources */,
+				DD2340AF1ED2226300655FE9 /* Frameworks */,
+				DD2340B01ED2226300655FE9 /* Resources */,
+				46D58F002E3D5E09B2657AB6 /* [CP] Embed Pods Frameworks */,
+				E99D3011D607CCDAA7FD3F6E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgoliaDemo;
+			productName = AlgoliaDemo;
+			productReference = DD2340B21ED2226300655FE9 /* AlgoliaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD2340AA1ED2226300655FE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ben Rothschild";
+				TargetAttributes = {
+					DD2340B11ED2226300655FE9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EWV39NCD35;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DD2340AD1ED2226300655FE9 /* Build configuration list for PBXProject "AlgoliaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD2340A91ED2226300655FE9;
+			productRefGroup = DD2340B31ED2226300655FE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD2340B11ED2226300655FE9 /* AlgoliaDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD2340B01ED2226300655FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2340C01ED2226300655FE9 /* LaunchScreen.storyboard in Resources */,
+				DD2340BD1ED2226300655FE9 /* Assets.xcassets in Resources */,
+				DD2340BB1ED2226300655FE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46D58F002E3D5E09B2657AB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlgoliaDemo/Pods-AlgoliaDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8850FE0AF5A995787C922430 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E99D3011D607CCDAA7FD3F6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlgoliaDemo/Pods-AlgoliaDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD2340AE1ED2226300655FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2340C81ED244E200655FE9 /* SearchTableViewController.swift in Sources */,
+				DD2340CA1ED2452400655FE9 /* ResultsCell.swift in Sources */,
+				DD2340CC1ED2495900655FE9 /* Record.swift in Sources */,
+				DD2340B61ED2226300655FE9 /* AppDelegate.swift in Sources */,
+				DD2340D01ED249E800655FE9 /* AlgoliaManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD2340B91ED2226300655FE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2340BA1ED2226300655FE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD2340BE1ED2226300655FE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2340BF1ED2226300655FE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD2340C21ED2226300655FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD2340C31ED2226300655FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD2340C51ED2226300655FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F448B2ECDA53EB9D0449A7 /* Pods-AlgoliaDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EWV39NCD35;
+				INFOPLIST_FILE = AlgoliaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnroths.AlgoliaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DD2340C61ED2226300655FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA3F7F281646499712525AED /* Pods-AlgoliaDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EWV39NCD35;
+				INFOPLIST_FILE = AlgoliaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnroths.AlgoliaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD2340AD1ED2226300655FE9 /* Build configuration list for PBXProject "AlgoliaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2340C21ED2226300655FE9 /* Debug */,
+				DD2340C31ED2226300655FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD2340C41ED2226300655FE9 /* Build configuration list for PBXNativeTarget "AlgoliaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2340C51ED2226300655FE9 /* Debug */,
+				DD2340C61ED2226300655FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD2340AA1ED2226300655FE9 /* Project object */;
+}

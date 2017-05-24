@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AlgoliaSearch-Client-Swift (4.8.1)
+  - Button (5.12.0)
+  - InstantSearch-Core-Swift (1.0.1):
+    - AlgoliaSearch-Client-Swift (~> 4.0)
+  - Reachability (3.2)
+  - SwiftyJSON (3.1.4)
+  - TTRangeSlider (1.0.5)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - AlgoliaSearch-Client-Swift (>= 4.0)
+  - Button (~> 5)
+  - InstantSearch-Core-Swift (~> 1.0)
+  - Reachability (~> 3.2)
+  - SwiftyJSON (>= 3.0.0)
+  - TTRangeSlider (from `https://github.com/TomThorpe/TTRangeSlider`, branch `master`)
+
+EXTERNAL SOURCES:
+  TTRangeSlider:
+    :branch: master
+    :git: https://github.com/TomThorpe/TTRangeSlider
+
+CHECKOUT OPTIONS:
+  TTRangeSlider:
+    :commit: 42df5c031b2efdbc5668c90a5e4147a4d02f27ae
+    :git: https://github.com/TomThorpe/TTRangeSlider
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AlgoliaSearch-Client-Swift: 5bdfbc8727f203773245e2410edd7a9c8e831637
+  Button: 596c4bc4f1a3b921474dec6d2d8c3ad4751fb176
+  InstantSearch-Core-Swift: 0cc37cfd832ab67c47907eafc2f9b2a96451ef70
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  TTRangeSlider: 2f2ce4a33b32bb323c6575b9f5161c4664459c58
+
+PODFILE CHECKSUM: 7e790769b176f46d568faa632d9c8320bf2abafb
+
+COCOAPODS: 1.2.1
